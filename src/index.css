@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 24px);
+}
+
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top, 24px);
+}
